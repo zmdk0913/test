@@ -23,7 +23,7 @@ void setup()
 void loop()
 
 {
-  long duration, distance; // 거리 측정 변수
+  long duration; // 거리 측정 변수
   // trig핀에 10us 동안 펄스 출력
   digitalWrite(trig, LOW);
   delayMicroseconds(2);
